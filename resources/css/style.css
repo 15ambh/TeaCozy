@@ -28,7 +28,7 @@ header img{
 
 nav{
   margin-right: 10px;
-  width: 300px;
+  width: auto;
 }
 a{
   color: inherit;
@@ -46,6 +46,7 @@ a{
   background-image: url(../images/img-mission-background.jpg);
   justify-content: center;
 }
+
 .statement{
   display: block;
   background-color: black;
@@ -62,8 +63,8 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
+
 .tea div{
   margin: auto 15px;
   background-size: cover;
@@ -96,7 +97,6 @@ a{
   display: flex;
   margin:0 auto;
   flex-direction: column;
-  background-size: cover;
   background-image: url(../images/img-locations-background.jpg);
   width: 1200px;
   height: 500px;
